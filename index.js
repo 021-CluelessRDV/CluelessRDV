@@ -1,0 +1,31 @@
+let nilai = [70, 85, 67, 94];
+
+for (let i = 0; i < nilai.length; i++) 
+    if (nilai[i] >= 75) {
+        console.log(nilai[i] + " Predikat A");
+    } else
+    console.log(nilai[i] + " Predikat B");
+    
+    {
+}
+
+let siswa = ["Radiv, Bagas, Evan, Fadli, Arap"]
+for (let a = 0; a < siswa.length; a++) {
+    console.log(siswa[a])
+}
+
+let menu = 1
+switch(menu) {
+    case 1:
+        console.log("Combo Gacor 1");
+    case 2:
+        console.log("Combo Gacor 2");
+    case 3:
+        console.log("Combo Gacor 3");
+    case 4:
+        console.log("Combo Gacor 4");
+        break;
+        default:
+            console.log("menu 5 kosong");
+            
+}
